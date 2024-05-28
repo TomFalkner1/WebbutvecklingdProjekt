@@ -1,0 +1,184 @@
+body{
+    color: deepskyblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  
+    list-style: none;
+    margin: 0;
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565c0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+  
+    .navigation a {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  .headerlogo {
+    width: 110%;
+  }
+  .logo {
+    background-color: deepskyblue;
+    width: 80px;
+    height: 80px;
+  }
+  
+  nav {
+    height: 80px;
+    width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    height: 100%;
+  }
+
+
+main{
+    background-color: #f2f2f2;
+    padding: 30px;
+    max-width: 350px;
+    position: relative;
+    left: 35%;
+}
+
+h1{
+    color: rgb(70, 70, 238);
+    position: relative;
+    left: 10%;
+}
+label{
+    color: rgb(70, 70, 238);
+}
+
+.Message{
+  height: 50px;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 5px;
+    margin: 5px ;
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    position: relative;
+    left: 30%;
+    background-color:rgb(70, 70, 238);
+    border: 1px solid rgb(70, 70, 238);
+    color: white;
+    border-radius: 2px;
+    padding: 7px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#submit.big{
+    width: 200px;
+    height: 200px;
+}
+
+select{
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 0, 209);
+  }
+
+input:focus{
+    background-color: rgb(231, 231, 231);
+}
+
+footer {
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(44, 82, 117);
+    height: 40vh;
+    width: 100%;
+  }
+
+  p{
+    color: white;
+  }
+
+  section {
+    padding: 20px;
+  }
+  
+  .footernav {
+    height: 100px;
+    width: 70%;
+  }
+  
+  .footerul {
+    display: flex;
+    gap: 40%;
+    list-style: none;
+    align-items: center;
+    height: 70%;
+  }
+  
+  .fa-paypal {
+    color: #121e56;
+  }
+  .fa-instagram {
+    color: rgb(167, 20, 130);
+  }
+  
+  .insta {
+    right: 20%;
+  }
+  
+  .paypal {
+    right: 50%;
+  }
+  
