@@ -1,234 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./bilder/logo.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <script
-      src="https://kit.fontawesome.com/6a7933b879.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Surf</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html"><img class="headerlogo" src="bilder/logo.png" alt=""  /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./bilder/logo.png" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6a7933b879.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Surf</title>
+</head>
+
+<body>
+  <header>
+    <div class="logodiv">
+      <a class="logo" href="index.html"><img src="./bilder/logo.png" alt="logo" class="logoimg"></a>
+    </div>
+    <nav>
+      <ul class="nav__links">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="produktsida.html">Products</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="produktsida.html">Products</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    </nav>
+  </header>
+  <main>
+    <img class="gifbild" src="bilder/surf.gif" alt="gifbild" loading="lazy" />
+    <section>
+      <div class="features">
+        <div class="feature">
+          <img src="./bilder/shipping.png" alt="freeshippingpicture" class="featureIcon" loading="lazy">
+          <span class="featureTitle">FREE SHIPPING</span>
+          <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+          <img class="featureIcon" src="./bilder/return.png" alt="returnpicture" loading="lazy">
+          <span class="featureTitle">30 DAYS RETURN</span>
+          <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+          <img class="featureIcon" src="./bilder/gift.png" alt="giftpicture" loading="lazy">
+          <span class="featureTitle">GIFT CARDS</span>
+          <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+          <img class="featureIcon" src="./bilder/contact.png" alt="contactpicture" loading="lazy">
+          <span class="featureTitle">CONTACT US!</span>
+          <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+      </div>
+
+      <button class="shopbtn"><span class="btntext">To Shop</span></button>
+
+    </section>
+    <section>
+      <h1 class="product-heading">Featured Products</h1>
+      <div class="maincontainer centrera">
+        <div class="product index">
+          <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+            loading="lazy" />
+          <div class="product_desc">
+            <h3>DUOTONE Surfboard</h3>
+            <p>12 000 kr</p>
+            <div class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product index">
+          <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+            loading="lazy" />
+          <div class="product_desc">
+            <h3>DUOTONE Surfboard</h3>
+            <p>12 000 kr</p>
+            <div class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product index">
+          <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+            loading="lazy" />
+          <div class="product_desc">
+            <h3>DUOTONE Surfboard</h3>
+            <p>12 000 kr</p>
+            <div class="rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="adsection">
+      <div class="newSeason">
+        <div class="nsItem">
+          <img src="./bilder/windsurf1.jpg" alt="windsurfing" class="nsImg" loading="lazy"
+            sizes="(max-width: 450px) 450px, (max-width: 1920px) 1920px, 100vw" srcset="
+              ./bilder/windsurf1.jpg 1920w,
+              ./bilder/windsurf1.webp 450w">
+        </div>
+        <div class="nsItem">
+          <h3 class="nsTitleSm">SUMMER NEW ARRIVALS</h3>
+          <h2 class="nsTitle">New Season</h2>
+          <h1 class="nsTitle">New Collection</h1>
+          <button class="nsButton">CHOOSE YOUR SPORT</button>
+        </div>
+        <div class="nsItem">
+          <img src="./bilder/wingsurf.jpg" alt="wingsurfing" class="nsImg" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footerLeft">
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">About Us</h1>
+        <ul class="fList">
+          <li class="fListItem">Company</li>
+          <li class="fListItem">Contact</li>
+          <li class="fListItem">Careers</li>
+          <li class="fListItem">Affiliates</li>
+          <li class="fListItem">Stores</li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <img class="gifbild" src="bilder/surf.gif" alt="" />
-      <section>
-        <div class="features">
-          <div class="feature">
-              <img src="./bilder/shipping.png" alt="" class="featureIcon">
-              <span class="featureTitle">FREE SHIPPING</span>
-              <span class="featureDesc">Free worldwide shipping on all orders.</span>
-          </div>
-          <div class="feature">
-              <img class="featureIcon" src="./bilder/return.png" alt="">
-              <span class="featureTitle">30 DAYS RETURN</span>
-              <span class="featureDesc">No question return and easy refund in 14 days.</span>
-          </div>
-          <div class="feature">
-              <img class="featureIcon" src="./bilder/gift.png" alt="">
-              <span class="featureTitle">GIFT CARDS</span>
-              <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
-          </div>
-          <div class="feature">
-              <img class="featureIcon" src="./bilder/contact.png" alt="">
-              <span class="featureTitle">CONTACT US!</span>
-              <span class="featureDesc">Keep in touch via email and support system.</span>
-          </div>
       </div>
-       <a href="produktsida.html"> <button class="shopbtn"><span class="btntext">To Shop</span></button></a>
-      </section>
-      <section>
-        <h1 class="product-heading">Featured Products</h1>
-        <div class="maincontainer">
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Useful Links</h1>
+        <ul class="fList">
+          <li class="fListItem">Support</li>
+          <li class="fListItem">Refund</li>
+          <li class="fListItem">FAQ</li>
+          <li class="fListItem">Feedback</li>
+          <li class="fListItem">Stories</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerRight">
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+        <div class="fMail">
+          <input type="text" placeholder="your@email.com" class="fInput">
+          <button class="fButton">Join!</button>
         </div>
-      </section>
-      <section>
-        <div class="maincontainer">
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="product">
-            <img
-              src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp"
-              alt=""
-            />
-            <div class="product_desc">
-              <h3>DUOTONE Surfboard</h3>
-              <p>12 000 kr</p>
-              <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Follow Us</h1>
+        <div class="fIcons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-paypal"></i>
         </div>
-      </section>
-      <section>
-        <div class="newSeason">
-          <div class="nsItem">
-              <img src="./bilder/windsurf.jpg"
-                  alt="" class="nsImg">
-          </div>
-          <div class="nsItem">
-              <h3 class="nsTitleSm">SUMMER NEW ARRIVALS</h3>
-              <h1 class="nsTitle">New Season</h1>
-              <h1 class="nsTitle">New Collection</h1>
-              <a href="#nav">
-                  <button class="nsButton">CHOOSE YOUR SPORT</button>
-              </a>
-          </div>
-          <div class="nsItem">
-              <img src="./bilder/wingsurf.jpg"
-                  alt="" class="nsImg">
-          </div>
       </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footerLeft">
-          <div class="footerMenu">
-              <h1 class="fMenuTitle">About Us</h1>
-              <ul class="fList">
-                  <li class="fListItem">Company</li>
-                  <li class="fListItem">Contact</li>
-                  <li class="fListItem">Careers</li>
-                  <li class="fListItem">Affiliates</li>
-                  <li class="fListItem">Stores</li>
-              </ul>
-          </div>
-          <div class="footerMenu">
-              <h1 class="fMenuTitle">Useful Links</h1>
-              <ul class="fList">
-                  <li class="fListItem">Support</li>
-                  <li class="fListItem">Refund</li>
-                  <li class="fListItem">FAQ</li>
-                  <li class="fListItem">Feedback</li>
-                  <li class="fListItem">Stories</li>
-              </ul>
-          </div>
-      </div>
-      <div class="footerRight">
-          <div class="footerRightMenu">
-              <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
-              <div class="fMail">
-                  <input type="text" placeholder="your@email.com" class="fInput">
-                  <button class="fButton">Join!</button>
-              </div>
-          </div>
-          <div class="footerRightMenu">
-              <h1 class="fMenuTitle">Follow Us</h1>
-              <div class="fIcons">
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-paypal"></i>
-              </div>
-          </div>
-      </div>
+    </div>
   </footer>
-  </body>
+  <script src="./javascript/index.js"></script>
+</body>
+
+
 </html>

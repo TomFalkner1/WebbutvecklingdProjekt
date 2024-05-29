@@ -1,73 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <script src="https://kit.fontawesome.com/6a7933b879.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./bilder/logo.png" type="image/x-icon" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
-      <div class="logo">
-        <a href="index.html"><img class="headerlogo" src="bilder/logo.png" alt=""  /></a>
-      </div>
+        <div class="logodiv">
+            <a class="logo" href="index.html"><img src="./bilder/logo.png" alt="logo" class="logoimg"></a>
+        </div>
         <nav>
-          <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produktsida.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+            <ul class="nav__links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="produktsida.html">Products</a></li>
+                <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-      </header>
+    </header>
     <main>
+
+        <div class="lagerrubirk">
+            <img src="./bilder/produktimage.jpg" class="rubrikbild" alt="windsurfpicture">
+            <h1 class="rubrikprodukt">Vårat Lager</h1>
+        </div>
+
+
+        <section class="produktsida">
+            <div class="produkttitlar">
+                <button class="produkttitel" id="alla"><span class="produkttext">Alla</span></button>
+                <button class="produkttitel" id="surfboardbtn"><span class="produkttext">Surfboards</span></button>
+                <button class="produkttitel" id="wingbtn"><span class="produkttext">Wings</span></button>
+            </div>
+            <div class="maincontainer">
+                <div class="product liten surfboard" id="surfboard">
+                    <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+                        loading="lazy" />
+                    <div class="product_desc">
+                        <h3>DUOTONE Surfboard</h3>
+                        <p>12 000 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten surfboard" id="surfboard1">
+                    <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+                        loading="lazy" />
+                    <div class="product_desc">
+                        <h3>DUOTONE Surfboard</h3>
+                        <p>12 000 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten surfboard" id="surfboard2">
+                    <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+                        loading="lazy" />
+                    <div class="product_desc">
+                        <h3>DUOTONE Surfboard</h3>
+                        <p>12 000 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten surfboard" id="surfboard3">
+                    <img src="./bilder/DUOTONE_Windsurf_2024_Grip_4_SLS_Top_Bottom_2500x2500px.webp" alt="surfboard"
+                        loading="lazy" />
+                    <div class="product_desc">
+                        <h3>DUOTONE Surfboard</h3>
+                        <p>12 000 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="product liten wing" id="wing">
+                    <img src="./bilder/wing.jpg" alt="wingpicture" loading="lazy" />
+                    <div class="product_desc">
+                        <h3>Northmode Wing</h3>
+                        <p>6 200 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten wing" id="wing1">
+                    <img src="./bilder/wing.jpg" alt="wingpicture" loading="lazy" />
+                    <div class="product_desc">
+                        <h3>Northmode Wing</h3>
+                        <p>6 200 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten wing" id="wing2">
+                    <img src="./bilder/wing.jpg" alt="wingpicture" loading="lazy" />
+                    <div class="product_desc">
+                        <h3>Northmode Wing</h3>
+                        <p>6 200 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product liten wing" id="wing3">
+                    <img src="./bilder/wing.jpg" alt="wingpicture" loading="lazy" />
+                    <div class="product_desc">
+                        <h3>Northmode Wing</h3>
+                        <p>6 200 kr</p>
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
 
     </main>
     <footer>
-      <div class="footerLeft">
-          <div class="footerMenu">
-              <h1 class="fMenuTitle">About Us</h1>
-              <ul class="fList">
-                  <li class="fListItem">Company</li>
-                  <li class="fListItem">Contact</li>
-                  <li class="fListItem">Careers</li>
-                  <li class="fListItem">Affiliates</li>
-                  <li class="fListItem">Stores</li>
-              </ul>
-          </div>
-          <div class="footerMenu">
-              <h1 class="fMenuTitle">Useful Links</h1>
-              <ul class="fList">
-                  <li class="fListItem">Support</li>
-                  <li class="fListItem">Refund</li>
-                  <li class="fListItem">FAQ</li>
-                  <li class="fListItem">Feedback</li>
-                  <li class="fListItem">Stories</li>
-              </ul>
-          </div>
-      </div>
-      <div class="footerRight">
-          <div class="footerRightMenu">
-              <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
-              <div class="fMail">
-                  <input type="text" placeholder="your@email.com" class="fInput">
-                  <button class="fButton">Join!</button>
-              </div>
-          </div>
-          <div class="footerRightMenu">
-              <h1 class="fMenuTitle">Follow Us</h1>
-              <div class="fIcons">
-                  <i class="fa-brands fa-twitter"></i>
-                  <i class="fa-brands fa-facebook"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                  <i class="fa-brands fa-paypal"></i>
-              </div>
-          </div>
-      </div>
-  </footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/produktsida.js"></script>
 </body>
-<script src="javascirptcontact.js"></script>
+
+
 </html>
